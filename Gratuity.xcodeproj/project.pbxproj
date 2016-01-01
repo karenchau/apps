@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D35D49C1C3075A5002BB6B0 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D35D49C1C3075A5002BB6B0 /* Gratuity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratuity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D35D49F1C3075A5002BB6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D35D4A11C3075A5002BB6B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D35D4A41C3075A5002BB6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D35D4A61C3075A5002BB6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D35D4A91C3075A5002BB6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D35D4AB1C3075A5002BB6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D35D4B01C3075A5002BB6B0 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D35D4B01C3075A5002BB6B0 /* Gratuity.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gratuity.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D35D4B41C3075A5002BB6B0 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 		4D35D4B61C3075A5002BB6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D35D4BB1C3075A5002BB6B0 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D35D4BB1C3075A5002BB6B0 /* Gratuity.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gratuity.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D35D4BF1C3075A5002BB6B0 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		4D35D4C11C3075A5002BB6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		4D35D49D1C3075A5002BB6B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D35D49C1C3075A5002BB6B0 /* tips.app */,
-				4D35D4B01C3075A5002BB6B0 /* tipsTests.xctest */,
-				4D35D4BB1C3075A5002BB6B0 /* tipsUITests.xctest */,
+				4D35D49C1C3075A5002BB6B0 /* Gratuity.app */,
+				4D35D4B01C3075A5002BB6B0 /* Gratuity.xctest */,
+				4D35D4BB1C3075A5002BB6B0 /* Gratuity.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D35D49B1C3075A5002BB6B0 /* tips */ = {
+		4D35D49B1C3075A5002BB6B0 /* Gratuity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D35D4C41C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = 4D35D4C41C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "Gratuity" */;
 			buildPhases = (
 				4D35D4981C3075A5002BB6B0 /* Sources */,
 				4D35D4991C3075A5002BB6B0 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = Gratuity;
 			productName = tips;
-			productReference = 4D35D49C1C3075A5002BB6B0 /* tips.app */;
+			productReference = 4D35D49C1C3075A5002BB6B0 /* Gratuity.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D35D4AF1C3075A5002BB6B0 /* tipsTests */ = {
+		4D35D4AF1C3075A5002BB6B0 /* GratuityTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D35D4C71C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "tipsTests" */;
+			buildConfigurationList = 4D35D4C71C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "GratuityTests" */;
 			buildPhases = (
 				4D35D4AC1C3075A5002BB6B0 /* Sources */,
 				4D35D4AD1C3075A5002BB6B0 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				4D35D4B21C3075A5002BB6B0 /* PBXTargetDependency */,
 			);
-			name = tipsTests;
+			name = GratuityTests;
 			productName = tipsTests;
-			productReference = 4D35D4B01C3075A5002BB6B0 /* tipsTests.xctest */;
+			productReference = 4D35D4B01C3075A5002BB6B0 /* Gratuity.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4D35D4BA1C3075A5002BB6B0 /* tipsUITests */ = {
+		4D35D4BA1C3075A5002BB6B0 /* GratuityUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D35D4CA1C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "tipsUITests" */;
+			buildConfigurationList = 4D35D4CA1C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "GratuityUITests" */;
 			buildPhases = (
 				4D35D4B71C3075A5002BB6B0 /* Sources */,
 				4D35D4B81C3075A5002BB6B0 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				4D35D4BD1C3075A5002BB6B0 /* PBXTargetDependency */,
 			);
-			name = tipsUITests;
+			name = GratuityUITests;
 			productName = tipsUITests;
-			productReference = 4D35D4BB1C3075A5002BB6B0 /* tipsUITests.xctest */;
+			productReference = 4D35D4BB1C3075A5002BB6B0 /* Gratuity.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D35D4971C3075A5002BB6B0 /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 4D35D4971C3075A5002BB6B0 /* Build configuration list for PBXProject "Gratuity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D35D49B1C3075A5002BB6B0 /* tips */,
-				4D35D4AF1C3075A5002BB6B0 /* tipsTests */,
-				4D35D4BA1C3075A5002BB6B0 /* tipsUITests */,
+				4D35D49B1C3075A5002BB6B0 /* Gratuity */,
+				4D35D4AF1C3075A5002BB6B0 /* GratuityTests */,
+				4D35D4BA1C3075A5002BB6B0 /* GratuityUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		4D35D4B21C3075A5002BB6B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D35D49B1C3075A5002BB6B0 /* tips */;
+			target = 4D35D49B1C3075A5002BB6B0 /* Gratuity */;
 			targetProxy = 4D35D4B11C3075A5002BB6B0 /* PBXContainerItemProxy */;
 		};
 		4D35D4BD1C3075A5002BB6B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D35D49B1C3075A5002BB6B0 /* tips */;
+			target = 4D35D49B1C3075A5002BB6B0 /* Gratuity */;
 			targetProxy = 4D35D4BC1C3075A5002BB6B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -402,7 +402,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kchau.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gratuity;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -416,7 +416,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kchau.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gratuity;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -428,8 +428,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kchau.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = Gratuity;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratuity.app/Gratuity";
 			};
 			name = Debug;
 		};
@@ -440,8 +440,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kchau.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = Gratuity;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratuity.app/Gratuity";
 			};
 			name = Release;
 		};
@@ -451,7 +451,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kchau.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gratuity;
 				TEST_TARGET_NAME = tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -463,7 +463,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kchau.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gratuity;
 				TEST_TARGET_NAME = tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D35D4971C3075A5002BB6B0 /* Build configuration list for PBXProject "tips" */ = {
+		4D35D4971C3075A5002BB6B0 /* Build configuration list for PBXProject "Gratuity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D35D4C21C3075A5002BB6B0 /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D35D4C41C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "tips" */ = {
+		4D35D4C41C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "Gratuity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D35D4C51C3075A5002BB6B0 /* Debug */,
@@ -489,7 +489,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4D35D4C71C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
+		4D35D4C71C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "GratuityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D35D4C81C3075A5002BB6B0 /* Debug */,
@@ -497,7 +497,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4D35D4CA1C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
+		4D35D4CA1C3075A5002BB6B0 /* Build configuration list for PBXNativeTarget "GratuityUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D35D4CB1C3075A5002BB6B0 /* Debug */,
