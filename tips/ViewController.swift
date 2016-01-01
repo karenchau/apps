@@ -17,8 +17,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        tipLabel.text = "$0.00"
-        totalLabel.text = "$0.00"
+        
+        let formatter = NSNumberFormatter()
+        formatter.numberStyle = .CurrencyStyle
+        formatter.locale = NSLocale.currentLocale()
+        tipLabel.text = formatter.stringFromNumber(0)
+        totalLabel.text = formatter.stringFromNumber(0)
+        
         billField.becomeFirstResponder()
     }
 
@@ -29,6 +34,9 @@ class ViewController: UIViewController {
 
     @IBAction func onEditingChanged(sender: AnyObject) {
         
+        let formatter = NSNumberFormatter()
+        formatter.numberStyle = .CurrencyStyle
+        
         var tipPercentages = [0.18, 0.20, 0.22]
         var tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
         
@@ -37,12 +45,11 @@ class ViewController: UIViewController {
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
         
-        tipLabel.text = "$\(tip)"
-        totalLabel.text = "$\(total)"
         
-        tipLabel.text = String(format: "$%.2f", tip)
+        formatter.locale = NSLocale.currentLocale()
         
-        totalLabel.text = String(format: "$%.2f", total)
+        tipLabel.text = formatter.stringFromNumber(tip)
+        totalLabel.text = formatter.stringFromNumber(total)
     }
     
     @IBAction func onTap(sender: AnyObject) {
